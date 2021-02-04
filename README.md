@@ -42,7 +42,7 @@ public static async Task Main(string[] args)
 ```
 
 # Educational Purposes Only
-This project was built for fun, just to test the waters with CAPTCHA solving. I tested it on Google's [Demo Captcha Service](https://www.google.com/recaptcha/api2/demo), a demo built to test the CAPTCHA's functionality while running tests on it. This program is for **Educational Purposes Only**, and is not meant for one to use while breaching website's TOS. This program requires the input of 2Captcha's account key, which hinders them from solving the problem, therefore limiting the use of this program. 
+This project was built for fun, just to test the waters with CAPTCHA solving. I tested it on Google's [Demo Captcha Service](https://www.google.com/recaptcha/api2/demo), a demo built to test the CAPTCHA's functionality while running tests on it. This program is for **Educational Purposes Only**, and is not meant for one to use while breaching other websites' TOS. This program requires the input of 2Captcha's account key, which hinders them from receiving a token to verify the CAPTCHA, therefore limiting the use of this program. 
 
 # Dependencies Utilized
 - C# (framework utilized)
