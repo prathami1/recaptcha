@@ -6,7 +6,7 @@ The program first visits the CAPTCHA protected website, and views the prompt of 
 
 # Problems that occurred (and how I overcame them)
 Google's CAPTCHA service was built by very talented engineers. Although I managed to bypass the security measures, I had to overcame a lot of obstacles to get me to this point; the points mentioned below outline a few of my struggles, and how I overcame them.
-- Google checks if the CAPTCHA service is being solved quickly, or if it is being solved in a moderate pace. This severely hindered my program, as it was solving the CAPTCHAs too fast for a human to decipher what the images were, which caused the CAPTCHA service to realize what was going on. Luckily, delays were on my side, and below is an implementation of how they were utilized in my program:
+- Google checks if the CAPTCHA service is being solved quickly, or if it is being solved at a moderate pace. This severely hindered my program, as it was solving the CAPTCHAs too fast for a human to decipher what the images were, which caused the CAPTCHA service to realize what was going on. Luckily, delays were on my side, and below is an implementation of how they were utilized in my program:
 ```cs
 public static async Task Main(string[] args)
 {
